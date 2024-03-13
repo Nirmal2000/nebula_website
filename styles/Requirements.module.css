@@ -1,0 +1,44 @@
+
+.container {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0; /* Placeholder color, adjust as needed */
+}
+
+.heading {
+  color: #000; /* Darkest black for headings */
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #333; /* Slightly lighter black for descriptive text */
+  margin-bottom: 2rem;
+}
+
+.requirementsList {
+  list-style: none;
+  padding: 0;
+}
+
+.requirementItem {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333; /* Slightly lighter black for list items */
+}
+
+.checkIcon {
+  color: #4CAF50; /* Green color for the check icon */
+  margin-right: 8px;
+}
+
+.getStartedButton {
+  display: inline-block; /* Allows padding and margin to be applied correctly */
+  margin-top: 20px;
+  background-color: #0070f3; /* Adjust the color to match your design */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Removes underline from the anchor element */
+}

@@ -1,0 +1,26 @@
+.heroContainer {
+  text-align: center;
+  padding: 100px;
+  background-color: #f0f0f0; /* Placeholder color, adjust as needed */
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #0070f3; /* Adjust the color to match your design */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

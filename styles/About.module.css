@@ -1,0 +1,47 @@
+/* components/BenefitsSection.module.css */
+.container {
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  /* padding: 50px; */
+  /* text-align: center; */
+  background-color: #F7F7F7; /* Adjust if you have a specific grey you're using */
+  max-width: 100%;
+  padding: 50px; /* Padding is added inside the container, does not exceed the viewport */
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+.heading {
+  margin-bottom: 50px;
+  color: #000; /* Black text for heading */
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.benefitItem {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff; /* Assuming benefit items have a white background */
+  border-radius: 8px; /* Optional: if you want rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: if you want a shadow effect */
+  color: #000;
+}
+
+.icon {
+  /* Update your icon placeholder styles as necessary */
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #eee; /* Placeholder background color for the icon */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .benefits {
+    flex-direction: column;
+  }
+}

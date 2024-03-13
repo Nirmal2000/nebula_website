@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #ffffff;
+  position: fixed; /* Fixed position */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  background: #ffffff; /* Background color */
+  z-index: 1000; /* Ensure it's above other items */
+  
+  /* Add some shadow for better visibility over the content */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navLinkActive {
+  color: #fff;
+  background-color: #0070f3;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 10px;
+}

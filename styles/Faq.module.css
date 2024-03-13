@@ -1,0 +1,46 @@
+/* styles/faq.module.css */
+.faqContainer {
+  background-color: #F7F7F7; /* Adjust the color to the greyish background */
+  color: #000; /* Black text */
+  padding: 50px;
+  min-height: 100vh; /* Full height */
+}
+
+.faqTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.faqIntro {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.faqContent {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faqHeading {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ccc; /* Light grey border */
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.faqItem {
+  margin-bottom: 1rem;
+}
+
+.faqQuestion {
+  font-size: 1.25rem;
+  font-weight: bold; /* Bold question text */
+  margin-bottom: 0.5rem;
+}
+
+.faqAnswer {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
