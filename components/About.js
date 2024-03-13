@@ -14,7 +14,7 @@ export default function About() {
         <div className={styles.benefitItem}>
           <div className={styles.icon}> {/* Icon placeholder */}</div>
           <h3>Join a Community of Fellow AI Teachers</h3>
-          <p>Outlier convenes experts across various industries to generate data and provide feedback on the most advanced generative AI models. Join our community to work alongside like-minded experts in your domain.</p>
+          <p>Nebula AI convenes experts across various industries to generate data and provide feedback on the most advanced generative AI models. Join our community to work alongside like-minded experts in your domain.</p>
         </div>
         <div className={styles.benefitItem}>
           <div className={styles.icon}> {/* Icon placeholder */}</div>

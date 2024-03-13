@@ -6,7 +6,7 @@ export default function Requirements() {
   return (
     <div className={styles.container}>
       <h2 className={styles.heading}>Requirements</h2>
-      <p className={styles.description}>Here's what you need to become an AI Teacher:</p>
+      <p className={styles.description}>Here is what you need to become an AI Teacher:</p>
       <ul className={styles.requirementsList}>
         <li className={styles.requirementItem}><span className={styles.checkIcon}>✓</span> Verify your phone number</li>
         <li className={styles.requirementItem}><span className={styles.checkIcon}>✓</span> Do a background check</li>

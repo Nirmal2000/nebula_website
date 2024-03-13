@@ -5,7 +5,7 @@ export default function FAQ() {
     <div className={styles.faqContainer}>
       <h1 className={styles.faqTitle}>Frequently Asked Questions</h1>
       <p className={styles.faqIntro}>
-        We're excited about your interest in Nebula AI! We've assembled a list of frequently asked questions
+        We are excited about your interest in Nebula AI! We haveve assembled a list of frequently asked questions
         below to give you more information on what it is like to be a contributor.
       </p>
       <div className={styles.faqContent}>
